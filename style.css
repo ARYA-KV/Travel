@@ -1,0 +1,254 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand span{
+    color: orange;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.home-page{
+    width: 100%;
+    margin-top: 70px;
+    height: calc(100vh - 70px); /* Subtract navbar height from 100vh */
+   background-image: url("./assets/images/back-trave.jpg");
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   
+}
+.home-page h1{
+    position: absolute;
+    text-align: center;
+    color:rgb(6, 53, 56);
+    right: 25%;
+    top: 200px;
+
+}
+
+.main-heading{
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.card-container{
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buton{
+    margin-top: 10px;
+    width:150px;
+    border-radius: 50%;
+}
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* Adjust as needed */
+    align-items: center;
+    height: 40vh;
+    gap: 40px;
+
+}
+
+.flex-item {
+    flex: 1;
+    width:20% ;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+
+}
+
+.flex-item img {
+   width: 100%;
+   height: 100%;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    border: 1px solid gray;
+}
+
+
+.overlay-container {
+    height: 80vh;
+    width: 100%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Kerala_boatrace.jpg/800px-Kerala_boatrace.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+}
+
+.overlay-content {
+    text-align: center;
+}
+
+.overlay-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.overlay-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.video-half {
+    flex: 1; 
+}
+
+.video-half iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.image-half {
+    width: 100%;
+    flex: 1; 
+    
+}
+.image-half img{
+    height: 100%;
+    width: 50%;
+    margin-left: 200px;
+}
+#details{
+    height: 40px;
+    align-items: center;
+    background-color: skyblue;
+    border-radius:20px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.north{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+
+}
+.north h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+   
+}
+.head-premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* premium */
+.flex-container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.flex-item2{
+    width: 150px;
+    height: 150px;
+    border:1px solid;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+#logo{
+    width: 90%;
+    height: 50%;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+/* footer */
+.footer{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 483px;
+    
+    background-color: rgb(32, 32, 77);
+}
+#logo-footer{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    padding:0px  10px;
+   
+
+}
+.short-link{
+    color:#ffffff;
+    margin-top: 20px;
+}
+.short-link a{
+   
+    text-decoration: none;
+    color: #ffffff;
+  
+   
+
+}
+ul{
+    list-style-type: none;
+
+}
+#media{
+    color: #ffffff;
+}
+.social{
+    margin-top: 9px;
+    height: 40px;
+    width: 40px;
+}
+html{
+    scroll-behavior: smooth;
+ }
+ ::-webkit-scrollbar{
+    width: 10px;
+    
+ }
+ ::-webkit-scrollbar-track{
+    background-color: rgb(232, 236, 240);
+ }
+
+ .social-media a {
+    display: inline-block;
+    margin: 10px;
+    
+    transition: transform 0.3s ease-in-out;
+ }
+ .social-media a:hover {
+    transform: scale(1.2); /* Adjust scale factor as needed */
+}
